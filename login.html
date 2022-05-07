@@ -5,55 +5,67 @@
     <title>Login</title>
 
     <style>
-        .main{
-            text-align: center;
-            margin: 15%;
-            font-family: Helvetica;
-            }
-        
-        .check{
-            margin-top: -15%;
-            margin-left: 40%;
-            font-family: Helvetica;
-        }
+      .main{
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-family: Helvetica, sans-serif;
+      }
 
-        button{
-            font-size: large;
-            font-family: Helvetica;
-        }
+      {
+        height: 10%;
+      }
 
-        input{
+      .bg{
+      background: rgb(182,20,157);
+      background: linear-gradient(90deg, rgba(182,20,157,1) 21%, rgba(20,53,182,1) 85%, rgba(5,21,187,1) 100%, rgba(187,33,119,1) 100%);
+      }
 
-            width: 20%;
-            padding: 1.2%;
-        }
-    </style>
+      .log-in{
+        width: 40%;
+        border-radius: 4px;
+        padding: 10px;
+      }
+
+      .log-but{
+        width: 15%;
+        border-radius: 4px;
+        padding: 10px;
+      }
+
+      </style>
+
+
+
   </head>
+
+
+<body class = "bg">
 <div class = "main">
-  <h1 >Login</h1>
+  <h1>Login</h1>
 
 <form>
 
-  <input type="text" size="45px" placeholder="Email">
+  <input class = "log-in" type="text" size="40px" placeholder="Email">
   <br><br>
-  <input type="password" size="40px" placeholder="Password">
+  <input class = "log-in"  type="password" size="40px" placeholder="Password">
   <br><br>
-  <button type = "submit"> submit</button>
+  <button class = "log-but"  type = "submit"> submit</button>
   <br>
   <br>
 
+  <div >
+    <input type ="checkbox">
+    <label>Remember me</label>
+  
+  </form>
+  </div>
 </div>
 
-<div class = "check">
-  <input type ="checkbox">
-  <label style = "margin-left: -9%";>Remember me</label>
-
-</form>
-</div>
 
 
-  <body>
-  </body>
+</body>
 
 
 
